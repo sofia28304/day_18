@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1_3 counter </title>
+</head>
+
+<body>
+    <form>
+        <label for="alter1">Gib das erste Alter ein</label>
+        <input type="number" id="alter1">
+        <label for="alter2">Gib das zweite Alter ein</label>
+        <input type="number" id="alter2">
+        <input onclick="BerechnenDiff(event)" type="submit" value="Berechne Differenz">
+    </form>
+    <p>Der Unterschied beträgt <span id="output"></span> Jahre.</p>
+
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>
